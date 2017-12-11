@@ -6,27 +6,22 @@
     <link rel="stylesheet" type="text/css" href="{% static 'login.css' %}"/>
     <title>Login</title>
 
-    <div class="content">
+    <div class="login-container">
 
-        <div class="login-column">
-            <form method="post"> {% csrf_token %}
-
-                <div>
-
+        
+            <form method="post" class="login"> {% csrf_token %}
+                <h2 class="heading">Login!</h2>
+            
                     <label for="id_username"></label>
-                    <input type="text" name="username" autofocus required
-                           id="id_username">
-
-                </div>
-                <div>
+                    <input type="text" name="username" placeholder="Username" autofocus required
+                           id="id_username">               
+                
 
                     <label for="id_password"></label>
-                    <input type="password" name="password" autofocus required
+                    <input type="password" name="password" placeholder="Password" autofocus required
                            id="id_password">
 
-                </div>
                 <button type="submit">Login</button>
             </form>
-        </div>
     </div>
 {% endblock %}

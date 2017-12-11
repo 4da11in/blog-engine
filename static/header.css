@@ -3,14 +3,15 @@ body {
 }
 .header {
     height: 80px;
-    background: #651FFF;
+    background: #333333;
     display: flex;
 }
 
 .title {
-    color: white;
+    color: #12af63;
     align-self: center;
     margin: 0 32px;
-    font-size: 1.5rem;
-    font-weight: 100;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: sans-serif;
 }
