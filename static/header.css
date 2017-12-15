@@ -15,3 +15,14 @@ body {
     font-weight: bold;
     font-family: sans-serif;
 }
+
+.filler {
+    flex: 1 1 auto;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    align-self: center;
+    margin-right: 30px;
+}
